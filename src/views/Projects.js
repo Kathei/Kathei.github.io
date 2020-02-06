@@ -13,6 +13,7 @@ import InfoArea from "components/InfoArea/InfoArea.js";
 import styles from "assets/jss/material-kit-react/views/projectsStyle.js";
 
 import { Web, Forum, ImportantDevices, InsertChartOutlined, ArtTrack, Transform } from "@material-ui/icons";
+import Badge from "components/Badge/Badge";
 
 
 const useStyles = makeStyles(styles);
