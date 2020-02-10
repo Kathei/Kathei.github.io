@@ -43,7 +43,7 @@ export default function Projects() {
               vertical
             />
             <Button
-                        href="https://www.dropbox.com/s/bjrrxp5jyu4x662/master_Heiskanen_Katriina_2018.pdf"
+                        href="https://github.com/Kathei/portfolio-react"
                         target="_blank"
                         color="default"
                         
@@ -55,7 +55,7 @@ export default function Projects() {
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
               title="Custom ServiceNow Application"
-              description="I worked as a developer in a team that successfully delivered custom ServiceNow applications for Finavia (Finnish airport operator owned by the Governemnt of Finland) digitising their complicated airport security processes with strict privacy and security regulations."
+              description="I worked as a developer in a team that successfully delivered custom ServiceNow applications for Finavia (Finnish airport operator owned by the Goverment of Finland) digitising their complicated airport security processes with strict privacy and security regulations."
               icon={Transform}
               iconColor="info"
               vertical
@@ -87,7 +87,7 @@ export default function Projects() {
               vertical
             />
             <Button
-                        href="https://www.dropbox.com/s/bjrrxp5jyu4x662/master_Heiskanen_Katriina_2018.pdf"
+                        href="https://github.com/Kathei/somekratia"
                         target="_blank"
                         color="default"
                         

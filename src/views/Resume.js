@@ -15,13 +15,10 @@ import Badge  from "components/Badge/Badge.js";
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 
-const dashboardRoutes = [];
-
 const useStyles = makeStyles(styles);
 
-export default function Resume(props) {
+export default function Resume() {
   const classes = useStyles();
-  const { ...rest } = props;
   return (
     <div className={classNames(classes.main, classes.mainRaised)}>
         <div className={classes.container}>
