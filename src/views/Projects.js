@@ -13,7 +13,7 @@ import InfoArea from "components/InfoArea/InfoArea.js";
 import styles from "assets/jss/material-kit-react/views/projectsStyle.js";
 
 import { Web, Forum, ImportantDevices, InsertChartOutlined, ArtTrack, Transform } from "@material-ui/icons";
-import Badge from "components/Badge/Badge";
+import Button from "components/CustomButtons/Button.js";
 
 
 const useStyles = makeStyles(styles);
@@ -36,18 +36,27 @@ export default function Projects() {
         <GridContainer>
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
-              title="SPA with React, Material Kit and LinkedIn API"
-              description="It's this website you are looking at right now! The code is available in GitHub."
+              title="SPA with React and Material UI"
+              description='It is the website you are looking at right now! The website is created with Material Kit React. The code is available in GitHub.'
               icon={ImportantDevices}
               iconColor="info"
               vertical
             />
+            <Button
+                        href="https://www.dropbox.com/s/bjrrxp5jyu4x662/master_Heiskanen_Katriina_2018.pdf"
+                        target="_blank"
+                        color="default"
+                        
+                      >
+                        View in GitHub
+                      </Button>
           </GridItem>
+          
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
-              title="Blog with WordPress and React"
-              description="WORK IN PROGRESS! Currently I am in the middle of creating my own blog with React and WordPress. You can follow my progress from GitHub."
-              icon={ArtTrack}
+              title="Custom ServiceNow Application"
+              description="I worked as a developer in a team that successfully delivered custom ServiceNow applications for Finavia (Finnish airport operator owned by the Governemnt of Finland) digitising their complicated airport security processes with strict privacy and security regulations."
+              icon={Transform}
               iconColor="info"
               vertical
             />
@@ -55,11 +64,19 @@ export default function Projects() {
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
               title="Master's Thesis: Parametric Modelling in Website Design"
-              description="Lorem ipsum"
+              description="I designed a new solution for creating websites for customers as my Master's thesis project. I developed a parametric model of the websites based on customers' and technical requirements. The websites are generated in a CMS based on the defined parameters sent via REST API. You can read about the research and the results in my Master's Thesis"
               icon={InsertChartOutlined}
               iconColor="info"
               vertical
             />
+            <Button
+                        href="https://www.dropbox.com/s/bjrrxp5jyu4x662/master_Heiskanen_Katriina_2018.pdf"
+                        target="_blank"
+                        color="default"
+                        
+                      >
+                        View Thesis
+                      </Button>
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
@@ -69,21 +86,36 @@ export default function Projects() {
               iconColor="info"
               vertical
             />
+            <Button
+                        href="https://www.dropbox.com/s/bjrrxp5jyu4x662/master_Heiskanen_Katriina_2018.pdf"
+                        target="_blank"
+                        color="default"
+                        
+                      >
+                        View in GitHub
+                      </Button>
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
               title="New layout for Mascus.com"
-              description="As my first big project for Mascus, I implemented the new layout with C#, HTML, CSS and JQuery. Examples of the old layout can be found from here and here. The current website can be found from here."
+              description="As my first big project at my first IT job, I implemented the new layout for Mascus.com with C#, HTML, CSS and JQuery based on the sketches by the designer."
               icon={Web}
               iconColor="info"
               vertical
             />
+            <Button
+                        href="https://www.mascus.com"
+                        target="_blank"
+                        color="default"
+                      >
+                        Visit Mascus.com
+                      </Button>
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
-              title="Custom ServiceNow Application"
-              description="Lorem ipsum"
-              icon={Transform}
+              title="Blog with WordPress and React"
+              description="CURRENT PROJECT: I have just started coding my own blog with React and WordPress. Stay tuned!"
+              icon={ArtTrack}
               iconColor="info"
               vertical
             />

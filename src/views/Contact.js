@@ -18,7 +18,6 @@ import styles from "assets/jss/material-kit-react/views/projectsStyle.js";
 import MailOutline from "@material-ui/icons/MailOutline";
 import PhonelinkRing from "@material-ui/icons/PhonelinkRing";
 
-const dashboardRoutes = [];
 
 const useStyles = makeStyles(styles);
 export default function Contact(props) {
@@ -30,7 +29,7 @@ export default function Contact(props) {
         <div className={classes.section}>
             <GridContainer justify="center">
                 <GridItem xs={12} sm={12} md={8}>
-                <h2 className={classes.title}>Contact Me</h2>
+                <h2 className={classes.title}>Contact me</h2>
                 <h5 className={classes.description}>
                 I am always open for new interesting projects and career possibilities. Feel free to send me an email or give me a call! <br/><br/><br/>
                 </h5>
@@ -44,6 +43,13 @@ export default function Contact(props) {
                     iconColor="info"
                     vertical
                     />
+                    <Button
+                        href="mailto:heiskanen.katriina@gmail.com"
+                        target="_blank"
+                        color="info"
+                      >
+                        Send email
+                      </Button>
                 </GridItem>
                 <GridItem xs={12} sm={12} md={4}>
                     <InfoArea
@@ -52,11 +58,17 @@ export default function Contact(props) {
                     iconColor="info"
                     vertical
                     />
+                    <Button
+                        href="tel:+61431910225"
+                        target="_blank"
+                        color="info"
+                      >
+                        Call
+                      </Button>
                 </GridItem>
             </GridContainer>
         </div>
       </div>
       </div>
-      
   );
 }

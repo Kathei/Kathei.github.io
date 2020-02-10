@@ -13,7 +13,6 @@ import GridItem from "components/Grid/GridItem.js";
 import styles from "assets/jss/material-kit-react/views/pageStyle";
 import img from "assets/img/Heiskanen_Katriina_2_1.jpg";
 
-const dashboardRoutes = [];
 
 const useStyles = makeStyles(styles);
 
@@ -24,8 +23,7 @@ export default function AboutMe(props) {
     classes.imgRoundedCircle,
     classes.imgFluid
   );
-
-  const { ...rest } = props;
+  
   return (
     <div className={classNames(classes.main, classes.mainRaised)}>
         <div className={classes.container}>
