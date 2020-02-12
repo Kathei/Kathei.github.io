@@ -37,7 +37,7 @@ export default function Projects() {
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
               title="SPA with React and Material UI"
-              description='It is the website you are looking at right now! The website is created with Material Kit React. The code is available in GitHub.'
+              description="This website you are looking at right now is my first React project. It is developed with Material Kit React."
               icon={ImportantDevices}
               iconColor="info"
               vertical
@@ -81,7 +81,7 @@ export default function Projects() {
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
               title="Web service with Django and AngularJS"
-              description="Somekratia is a platform for discussing public decisions made by the city of Helsinki. It is built as a single-page application with AngularJS and Django, and uses the Open Ahjo API provided by the city of Helsinki. This was a group project in a univerisity course. I contributed to the project as a full-stack developer. The code is available in GitHub."
+              description="Somekratia is a platform for discussing public decisions made by the city of Helsinki. It is built as a single-page application with AngularJS and Django, and uses the Open Ahjo API provided by the city of Helsinki. This was a group project in a univerisity course. I contributed to the project as a full-stack developer."
               icon={Forum}
               iconColor="info"
               vertical
