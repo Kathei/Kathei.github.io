@@ -5,17 +5,25 @@ const pageStyle = {
     container: {
         zIndex: "12",
         color: "#FFFFFF",
-        marginTop: "-300px",
-        marginBottom: "100px",
+        margin: "0 20px",
+        
         ...container
       },
       main: {
         background: "#FFFFFF",
-        position: "relative",
+        position: "absolute",
+        top: "100px",
+        left: "0",
+        right: "0",
+        margin: "0 30px 100px",
+        "@media only screen and (max-width: 768px)": {
+          margin: "0 10px 100px"
+        },
         zIndex: "3"
       },
       mainRaised: {
-        margin: "-520px 30px -70px",
+      
+
         borderRadius: "6px",
         boxShadow:
           "0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2)"

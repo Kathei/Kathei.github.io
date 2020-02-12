@@ -37,8 +37,6 @@ export default function HeaderLinks(props) {
         Contact
       </Link>
       </ListItem>
-    
-      
     </List>
   );
 }
