@@ -1,4 +1,4 @@
-import { container, primaryColor } from "assets/jss/material-kit-react.js";
+import { container, roseColor } from "assets/jss/material-kit-react.js";
 
 const footerStyle = {
   block: {
@@ -9,7 +9,6 @@ const footerStyle = {
     textTransform: "uppercase",
     borderRadius: "3px",
     textDecoration: "none",
-    position: "relative",
     display: "block"
   },
   left: {
@@ -26,10 +25,12 @@ const footerStyle = {
     textAlign: "center",
     display: "flex",
     zIndex: "2",
-    position: "relative"
+    position: "fixed",
+    bottom: "0",
+    width: "100%"
   },
   a: {
-    color: primaryColor,
+    color: roseColor,
     textDecoration: "none",
     backgroundColor: "transparent"
   },
