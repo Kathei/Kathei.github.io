@@ -38,7 +38,6 @@ const pageStyle = {
   title: {
     ...title,
     marginBottom: "1rem",
-    marginTop: "30px",
     minHeight: "32px",
     textDecoration: "none"
   },
