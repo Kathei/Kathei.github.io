@@ -37,21 +37,13 @@ export default function Projects() {
         <GridItem xs={12} sm={12} md={4}>
             <InfoArea
               title="CURRENT PROJECT: Blog app with React, Node and MongoDB"
-              description="I have just started coding my own blog with Material-UI, React, Express/Node and MongoDB. The first version with limited functionality can be checked from GitHub. Work in progress!"
+              description="I have just started coding my own blog with Material-UI, React, Express/Node and MongoDB. The current version with limited functionality can be checked from GitHub. Work in progress!"
               icon={ArtTrack}
               iconColor="info"
               vertical
             />
             <Button
-                        href="https://github.com/Kathei/portfolio-react"
-                        target="_blank"
-                        color="default"
-                        
-                      >
-                        View in GitHub
-                      </Button>
-                      <Button
-                        href="https://github.com/Kathei/portfolio-react"
+                        href="https://github.com/Kathei/Blog-app"
                         target="_blank"
                         color="default"
                         
