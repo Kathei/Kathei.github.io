@@ -27,7 +27,11 @@ const footerStyle = {
     zIndex: "2",
     position: "fixed",
     bottom: "0",
-    width: "100%"
+    width: "100%",
+    "@media (max-width: 768px)": {
+      position: "absolute"  
+    },
+    backgroundColor: "#e5e5e5"
   },
   a: {
     color: roseColor,
@@ -43,7 +47,8 @@ const footerStyle = {
   list: {
     marginBottom: "0",
     padding: "0",
-    marginTop: "0"
+    marginTop: "0",
+    alignSelf: "flex-end"
   },
   inlineBlock: {
     display: "inline-block",
@@ -55,6 +60,10 @@ const footerStyle = {
     height: "18px",
     position: "relative",
     top: "3px"
+  },
+  middle: {
+   
+
   }
 };
 export default footerStyle;
