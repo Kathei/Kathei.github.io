@@ -30,8 +30,7 @@ const footerStyle = {
     width: "100%",
     "@media (max-width: 768px)": {
       position: "absolute"  
-    },
-    backgroundColor: "#e5e5e5"
+    }
   },
   a: {
     color: roseColor,
