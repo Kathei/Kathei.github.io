@@ -21,8 +21,8 @@ export default function FrontPage() {
           <GridContainer justify="flex-end">
             <GridItem xs={12} sm={12} md={6}>
               <h1 className={classes.title}>Katriina Heiskanen</h1>
-              <h3>
-                Software Developer, Problem-solver and Adventure Cyclist
+              <h3 className={classes.subtitle}>
+                Software Developer and Adventure Cyclist
               </h3>
             </GridItem>
           </GridContainer>

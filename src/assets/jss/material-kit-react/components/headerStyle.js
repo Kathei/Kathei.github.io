@@ -55,18 +55,19 @@ const headerStyle = {
   title: {
     ...title,
     lineHeight: "30px",
-    fontSize: "20px",
+    fontSize: "22px",
     borderRadius: "3px",
     textTransform: "none",
     fontWeight: "600",
     color: "inherit",
     padding: "8px 16px",
-    letterSpacing: "1px",
     marginBottom: "5px",
+    textTransform: "uppercase",
     "&:hover,&:focus": {
       color: "inherit",
       background: "transparent"
     }
+
   },
   appResponsive: {
     margin: "20px 10px"

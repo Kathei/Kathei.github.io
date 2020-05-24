@@ -32,6 +32,25 @@ export default function Resume() {
       </GridContainer>
     
         <VerticalTimeline>
+        <VerticalTimelineElement
+    className="vertical-timeline-element--work"
+    contentStyle={{color: '#3C4858' }}
+    contentArrowStyle={{ borderRight: '7px solid  #fff' }}
+    date="March 2020 - June 2020"
+    iconStyle={{ background: '#00acc1', color: '#fff' }}
+    icon={<Work />}
+  >
+    <Badge color="info">ServiceNow</Badge>
+    <Badge color="info">JavaScript</Badge>
+    <Badge color="info">ITSM</Badge>
+    <Badge color="info">Scrum</Badge>
+
+    <h3 className="vertical-timeline-element-title">ServiceNow Developer</h3>
+    <h4 className="vertical-timeline-element-subtitle">Pipefish Pty Ltd</h4>
+    <p>
+    Currently I am working for a small Australian IT Consulting Company as a contractor in a ServiceNow Developer role. As a part of the ServiceNow project delivery team, I have been developing a new Service Catalog with ServiceNow in a large-scale Service Management Transformation project for a large Australian corporation. My work tasks include software development with JavaScript, system configuration, requirements gathering and analysis, and unit testing in a Scrum project.
+    </p>
+  </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
     contentStyle={{color: '#3C4858' }}

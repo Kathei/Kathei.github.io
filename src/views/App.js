@@ -20,6 +20,7 @@ import Contact from "./Contact";
 const dashboardRoutes = [];
 
 
+
 export default function App(props) {
   const { ...rest } = props;
   return (
@@ -27,8 +28,8 @@ export default function App(props) {
       <Header
         color="transparent"
         routes={dashboardRoutes}
-        brand="Katriina Heiskanen"
         rightLinks={<HeaderLinks />}
+        brand="Katriina Heiskanen"
         fixed
         changeColorOnScroll={{
           height: 50,

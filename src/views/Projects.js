@@ -34,10 +34,36 @@ export default function Projects() {
       </GridContainer>
       <div>
         <GridContainer>
+        <GridItem xs={12} sm={12} md={4}>
+            <InfoArea
+              title="CURRENT PROJECT: Blog app with React, Node and MongoDB"
+              description="I have just started coding my own blog with Material-UI, React, Express/Node and MongoDB. The first version with limited functionality can be checked from GitHub. Work in progress!"
+              icon={ArtTrack}
+              iconColor="info"
+              vertical
+            />
+            <Button
+                        href="https://github.com/Kathei/portfolio-react"
+                        target="_blank"
+                        color="default"
+                        
+                      >
+                        View in GitHub
+                      </Button>
+                      <Button
+                        href="https://github.com/Kathei/portfolio-react"
+                        target="_blank"
+                        color="default"
+                        
+                      >
+                        View in GitHub
+                      </Button>
+          </GridItem>
+
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
               title="SPA with React and Material UI"
-              description="This website you are looking at right now is my first React project. It is developed with Material Kit React."
+              description="This website you are looking at right now is my first React project. It is developed using Material Kit React."
               icon={ImportantDevices}
               iconColor="info"
               vertical
@@ -110,15 +136,6 @@ export default function Projects() {
                       >
                         Visit Mascus.com
                       </Button>
-          </GridItem>
-          <GridItem xs={12} sm={12} md={4}>
-            <InfoArea
-              title="Blog with WordPress and React"
-              description="CURRENT PROJECT: I have just started coding my own blog with React and WordPress. Stay tuned!"
-              icon={ArtTrack}
-              iconColor="info"
-              vertical
-            />
           </GridItem>
         </GridContainer>
       </div>
