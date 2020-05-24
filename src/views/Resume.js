@@ -48,7 +48,7 @@ export default function Resume() {
     <h3 className="vertical-timeline-element-title">ServiceNow Developer</h3>
     <h4 className="vertical-timeline-element-subtitle">Pipefish Pty Ltd</h4>
     <p>
-    Currently I am working for a small Australian IT Consulting Company as a contractor in a ServiceNow Developer role. As a part of the ServiceNow project delivery team, I have been developing a new Service Catalog with ServiceNow in a large-scale Service Management Transformation project for a large Australian corporation. My work tasks include software development with JavaScript, system configuration, requirements gathering and analysis, and unit testing in a Scrum project.
+    Currently I am working for a small Australian IT Consulting Company as a contractor in a ServiceNow Developer role. As a part of the project delivery team, I have been developing a new customized IT service catalog with ServiceNow for a large Australian corporation. My work tasks include software development with JavaScript, system configuration, requirements gathering and analysis, and unit testing in a Scrum project.
     </p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
